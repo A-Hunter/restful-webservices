@@ -12,6 +12,10 @@ public class Address {
     public final String country;
     public final Integer zip;
 
+    public Address() {
+        this(null,null,null,null);
+    }
+
     public Address(String roadName, Integer roadNumber, String country, Integer zip) {
         this.roadName = roadName;
         this.roadNumber = roadNumber;
